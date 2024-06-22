@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./assets/font/HELVETICA-ROUNDED-BOLD.OTF');
+}
+
+:root {
+  font-family: 'Helvetica', sans-serif;
+  --primary: #B0B8D3;
+  --secondary: #F9FDF2;
+  --background: #584567;
+  --error: #F6130F;
+  --warning: #FFDF37;
+  --success: #75ABC3;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
